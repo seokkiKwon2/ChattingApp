@@ -1083,6 +1083,9 @@ PODS:
     - nanopb (< 2.30910.0, >= 2.30908.0)
     - React-Core
     - RNFBApp
+  - RNScreens (3.20.0):
+    - React-Core
+    - React-RCTImage
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -1125,6 +1128,7 @@ DEPENDENCIES:
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBAuth (from `../node_modules/@react-native-firebase/auth`)"
   - "RNFBFirestore (from `../node_modules/@react-native-firebase/firestore`)"
+  - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1222,6 +1226,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-firebase/auth"
   RNFBFirestore:
     :path: "../node_modules/@react-native-firebase/firestore"
+  RNScreens:
+    :path: "../node_modules/react-native-screens"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1280,6 +1286,7 @@ SPEC CHECKSUMS:
   RNFBApp: 159f756a612af7fbcbe56e1556c5f3acb6efbf9b
   RNFBAuth: 576541a39864ea9f22c3e051505d3ba5686270bd
   RNFBFirestore: 4af3da9ee42c3477ed1ff179687230c82169efef
+  RNScreens: 218801c16a2782546d30bd2026bb625c0302d70f
   Yoga: 5ed1699acbba8863755998a4245daa200ff3817b
 
 PODFILE CHECKSUM: 6a51d285259cad495c1b2376103d7874cf87d66a
